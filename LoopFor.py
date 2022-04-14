@@ -6,16 +6,30 @@ O loop For do Python é usado para travessia sequencial,ou seja, é usado para i
 for <iterável> in <objeto>:
 '''
 
+# Itera os números em um range de 0 a 9 
 for QualquerCoisaQueVcQuiser in range( 10 ):
     print( QualquerCoisaQueVcQuiser )
-    
+
+# Itera os números em um range de 1 a 9
 for QualquerCoisaQueVcQuiser in range( 1, 10 ):
     print( QualquerCoisaQueVcQuiser )
-    
-for QualquerCoisaQueVcQuiser in range( 1, 10, 5 ):
+   
+# Itera os números em um range de 1 a 100 pulando de 5 em 5
+for QualquerCoisaQueVcQuiser in range( 1, 100, 5 ):
     print( QualquerCoisaQueVcQuiser )
 
-Lista = ['Brasil', 'Argentina', 'Uruguai', 'Paraguai']
+# Criando uma lista de países
+Lista = ['Brasil', 'Argentina', 'Uruguai', 'Paraguai', 'Colômbia', 'Equador', 'Bolívia']
 
+# Itera todos os elementos da lista
 for QualquerCoisaQueVcQuiser in Lista:
     print( QualquerCoisaQueVcQuiser )
+
+# Deixar todos os elementos da lista em maiúsculas
+for QualquerCoisaQueVcQuiser in Lista:
+    print( QualquerCoisaQueVcQuiser.upper() )
+
+# Abrevia os elementos somente nas 3 primeiras letras
+for QualquerCoisaQueVcQuiser in Lista:
+    print( QualquerCoisaQueVcQuiser.upper()[0:3] )
+
