@@ -7,3 +7,25 @@ Sintaxe:
 While <expressao>
 '''
 
+# Joguinho
+
+while True:
+
+  Eu = randint( 0, 10 )
+  vc = randint( 0, 10 )
+
+  print( 'Eu tirei o valor ', Eu)
+  print( 'Vc tirou o valor ', vc)
+
+  if Eu > vc:
+    print( 'Eu ganhei!!!' )
+    break
+  
+  print('\n')
+
+# Vai continuar executando até que a consição seja falsa
+Parar = 0
+
+while Parar <= 10:
+  print( Parar )
+  Parar += 1
