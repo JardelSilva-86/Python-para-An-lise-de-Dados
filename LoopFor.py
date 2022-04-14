@@ -33,3 +33,27 @@ for QualquerCoisaQueVcQuiser in Lista:
 for QualquerCoisaQueVcQuiser in Lista:
     print( QualquerCoisaQueVcQuiser.upper()[0:3] )
 
+# Criando uma condição if e percorrendo a lista
+for Pais in Lista:
+    
+    if Pais == 'Brasil':
+      print( Pais, 'é Penta Campeão mundial!!' )
+    
+    elif Pais == 'Argentina': 
+      print( Pais, 'é Bi campeã mundial!!' )
+
+    elif Pais == 'Uruguai':
+      print( Pais, 'é Bi campeão mundial!!')
+    
+    else:
+      print( Pais, 'não tem título mundial!')
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
