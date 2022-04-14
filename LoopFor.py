@@ -62,8 +62,16 @@ for Pais in Lista:
   print( i, Pais )
   i += 1        
         
-        
-        
-        
-        
-        
+# Iterando números e colocando dentro de uma lista.
+# forma mais avançada
+[ numero for numero in range( 0, 11, 2 )]
+  
+# Iterando números e colocando sentro de uma lista.
+# forma mais simplificada.
+Lista = []
+
+for loop in range ( 0, 11, 2 ):
+  Lista.append( loop )
+
+print( Lista )
+
