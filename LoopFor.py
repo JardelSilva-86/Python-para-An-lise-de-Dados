@@ -47,10 +47,20 @@ for Pais in Lista:
     
     else:
       print( Pais, 'não tem título mundial!')
+
+# Iterando a lista com o tamanho da mesma (len()), pulando de 3 em 3
+for loop in range ( 0, len(Lista), 3 ):
+  print( Lista[loop] ) # Informe o loop entre [] para que não mostre a lista inteira
         
+# Iterando a lista, colocando um índice com enumarate()
+for index, Pais in enumerate(Lista):
+  print( index, Pais )       
         
-        
-        
+# Mesmo processo do código anterior, mas de outra forma
+i = 0
+for Pais in Lista:
+  print( i, Pais )
+  i += 1        
         
         
         
