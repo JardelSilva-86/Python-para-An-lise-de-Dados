@@ -5,6 +5,7 @@ O loop While é utilizado para executar um bloco de instruções até que uma de
 
 Sintaxe:
 While <expressao>
+  <Realize o loop>
 '''
 
 # Joguinho
