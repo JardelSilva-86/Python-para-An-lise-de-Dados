@@ -36,3 +36,10 @@ datetime.date(2022, 1, 22)
 data - data_antiga
 
 datetime.timedelta(days=94)
+
+data.strftime( '%d/%m/%y' )
+26/04/22
+
+# Somando datas
+data + datetime.timedelta(days=100)
+datetime.date(2022, 8, 4)
