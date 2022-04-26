@@ -12,3 +12,7 @@ funcao_soma(25)
 funcao_multiplica = lambda valor_1, valor_2: valor_1 * valor_2
 
 funcao_multiplica(98, 2)
+
+# lambda dentro de um if 
+exemplo = lambda valor : "Verdadeiro" if valor % 2 == 0 else "Falso"
+exemplo(3)
