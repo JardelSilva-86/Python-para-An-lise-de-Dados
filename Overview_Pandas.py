@@ -37,3 +37,12 @@ df.describe()
 
 # Retornar um sumário estatístico para variáveis categóricas
 df.describe(include = 'all')
+
+# Quantidade de valores únicos em cada coluna
+df.nunique()
+
+# Valores únicos da coluna nível de educação do pais
+df['parental level of education'].unique()
+
+# Valores únicos da coluna raça/etnia
+df
