@@ -79,6 +79,6 @@ df[(df.gender == 'male') & (df['test preparation course'] == 'none') & (df['math
 df.loc[(df.gender == 'male') & (df['test preparation course' == 'none']) & (df['math score'] >= 70)]   
 
  # Agrupamento - agrupa os dados por gênero e obtém estatíticas descritivas
-df.groupby(by = 'gender'
+df.groupby(by = 'gender')[notas].agg([np.mean, np.median]).T # .T é para transport o resultado
    
    
