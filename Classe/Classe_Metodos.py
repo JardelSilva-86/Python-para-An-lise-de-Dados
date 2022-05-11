@@ -31,3 +31,42 @@ dados.maior_idade()
 # Resultado
 Usuário é maior de idade.
 Olá seja bem vindo:  Jardel
+
+    
+# Criando a classe Car
+class Car:
+    speed = 0
+    started = False
+    
+    def star(self):
+        self.stared = True
+        print("Car started, let's ride!")
+        
+    def increase_speed(self, delta):
+        if self.started:
+            self.speed = self.speed + delta
+            print('Vroooooooom!')
+        else:
+            print("You need to start the car first")
+    
+    def stop(self):
+        self.speed = 0
+        print('Halting')
+
+# Atribuindo a classe Car() à variável car
+car = Car()
+
+# Iniciando o programa com o método increase_speed
+car.increase_speed(10)
+# retorno 
+'You need to start the car first'
+
+# Começando o program corretamente
+car.start()
+# retorno
+"Car started, let's ride!"
+
+# Aumentando a velocidade
+car.increase_speed(50)
+# retorno
+"Vroooooooom!"
