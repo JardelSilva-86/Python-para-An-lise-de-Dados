@@ -70,3 +70,34 @@ car.start()
 car.increase_speed(50)
 # retorno
 "Vroooooooom!"
+
+# Ainda na classe Car()
+# Vamos criar vários objetos
+car1 = Car()
+car2 = Car()
+
+# Utilizando o metódo Built-in id(), acabamos de provar que criamos 2 objetos diferentes da mesma classe. Com isso, podemos utilizá-la de forma independente.
+id(car1)
+# retorno
+139771129539104
+
+id(car2)
+# retorno
+139771129539160
+
+# Realizando a verificação da velocidade para confirmar que são carros diferentes
+car1.start()
+# retorno
+"Car started, let's ride!"
+
+car1.increase_speed(30)
+# retorno
+"Vroooom!"
+
+car1.speed
+# retorno
+30
+
+car2.speed
+# retorno
+0
